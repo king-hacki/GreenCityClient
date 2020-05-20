@@ -46,12 +46,14 @@ import { UserModule } from './component/user/user.module';
 import { LayoutModule } from './component/layout/layout.module';
 import { AppRoutingModule } from './app-routing.module';
 import { EcoPlacesComponent } from './component/user/profile/eco-places/eco-places.component';
+import { ShoppingListComponent } from './component/user/profile/shopping-list/shopping-list.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EcoPlacesComponent
+    EcoPlacesComponent,
+    ShoppingListComponent
   ],
   imports: [
     AppRoutingModule,
