@@ -45,10 +45,13 @@ import { HomeModule } from './component/home/home.module';
 import { UserModule } from './component/user/user.module';
 import { LayoutModule } from './component/layout/layout.module';
 import { AppRoutingModule } from './app-routing.module';
+import { EcoPlacesComponent } from './component/user/profile/eco-places/eco-places.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EcoPlacesComponent
   ],
   imports: [
     AppRoutingModule,
